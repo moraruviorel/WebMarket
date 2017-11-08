@@ -1,0 +1,57 @@
+1. General
+	1.1 Package Managers
+		- Bower	(https://bower.io/)			- Package Manager for Web (css and js).			https://docs.microsoft.com/en-us/aspnet/core/client-side/bower
+		- NuGet	(https://www.nuget.org/)	- Package Manager for .NET.
+		- npm	(https://www.npmjs.com/)	- Package Manager for Web.
+	1.2 Minification & Bundling
+		- Gulp																				https://docs.microsoft.com/en-us/aspnet/core/client-side/using-gulp
+		- WebPack
+		- bundleconfig.js																	https://docs.microsoft.com/en-us/aspnet/core/client-side/bundling-and-minification
+	1.3 Deployments
+		- Configure Web Configs
+		- Configure Publishers
+
+
+2. Arhitecture
+	2.1 Dependecy Injection																	https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection
+		- Autofac or dotNetCore standart
+	2.2	Layers																				https://techiethoughtss.wordpress.com/2017/09/20/architecting-applications/
+
+
+3. DataBase & ORM
+	3.1 DataBases
+		- MS SQL Server.
+		- MySQL
+	3.2 ORM
+		- EntityFramework Core																https://docs.microsoft.com/en-us/ef/#pivot=efcore
+		- nHibernate for dotNetCore
+		- Dapper for dotNetCore
+
+
+4. Authentication & Authorization 
+	4.1 Authentication
+		- Custom Authentication																https://docs.microsoft.com/en-us/aspnet/core/security/authentication/cookie?tabs=aspnetcore2x
+		- Identity																			https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity?tabs=visual-studio%2Caspnetcore2x
+		- Facebook, Twitter, Google, ThirdParty												https://docs.microsoft.com/en-us/aspnet/core/security/authentication/social/
+	4.2 Authorization
+		- Role Based																		https://docs.microsoft.com/en-us/aspnet/core/security/authorization/roles
+		- Claim Based																		https://docs.microsoft.com/en-us/aspnet/core/security/authorization/claims
+		- Policy Based																		https://docs.microsoft.com/en-us/aspnet/core/security/authorization/policies
+
+
+4. Testing
+	4.1 Unit Tests
+		- Unit Test Project - Microsoft Unit Testing tool.
+	4.2. Mock
+		- moq - is used to mock dependencies.
+
+
+5. Web
+	5.1 UI Libraries
+		- SASS (http://sass-lang.com/) - CSS extension Language.							https://docs.microsoft.com/en-us/aspnet/core/client-side/less-sass-fa
+		- Bootstrap	(http://getbootstrap.com/) - Front End library.							https://docs.microsoft.com/en-us/aspnet/core/client-side/bootstrap
+		- Bootstrap Theme (http://webapplayers.com/inspinia_admin-v2.7.1/)
+	5.2 dotNet Core
+		-
+	5.3 Angular
+		-

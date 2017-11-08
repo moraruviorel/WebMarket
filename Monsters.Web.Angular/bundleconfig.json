@@ -1,0 +1,20 @@
+﻿[
+  {
+    "outputFileName": "wwwroot/libs/site.min.css",
+    "inputFiles": [
+      "bower_components/**/*.css",
+      "wwwroot/css/custom.css"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/libs/site.min.js",
+    "inputFiles": [   
+      "app/*.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    "sourceMap": false
+  }
+]

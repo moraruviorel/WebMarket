@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Monsters.Common\Monsters.Common.csproj" />
+    <ProjectReference Include="..\Monsters.DataAccess.EntityFramework\Monsters.DataAccess.EntityFramework.csproj" />
+    <ProjectReference Include="..\Monsters.DataAccess\Monsters.DataAccess.csproj" />
+    <ProjectReference Include="..\Monsters.Repositories\Monsters.Repositories.csproj" />
+  </ItemGroup>
+
+</Project>

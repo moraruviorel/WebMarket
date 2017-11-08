@@ -1,0 +1,164 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Tests", "_Tests", "{E552CE68-A314-4C54-B589-0281F26A899A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{0AE7DAA9-7F40-4C09-8391-3A69F8ABE167}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Monsters.Web.DotNetCore", "Monsters.Web.DotNetCore\Monsters.Web.DotNetCore.csproj", "{2D249C43-D085-4B5E-9542-01B0308499DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Monsters.Web.Angular", "Monsters.Web.Angular\Monsters.Web.Angular.csproj", "{C3B0E8F3-AE84-46B0-8940-D7C6687CE38C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{E5CBCB29-00C1-4D3A-BD6C-669D0BBC8606}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Monsters.DataAccess.EntityFramework", "Monsters.DataAccess.EntityFramework\Monsters.DataAccess.EntityFramework.csproj", "{5A9167AE-59AF-4FFB-B5AB-3F9E5055CB80}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReadMe", "ReadMe", "{374D6052-36D5-4612-9ECB-C15662F8E994}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe\Requirements.txt = ReadMe\Requirements.txt
+		ReadMe\Scope.txt = ReadMe\Scope.txt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Monsters.DataAccess.Dapper", "Monsters.DataAccess.Dapper\Monsters.DataAccess.Dapper.csproj", "{A367D4F1-A8C1-4A42-AF66-915F85CBAE95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{5B5AC515-BDA2-4F2E-BDAF-8C44540A9B3B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Monsters.Data", "Monsters.Data\Monsters.Data.csproj", "{FFA8B6DA-5B11-41D4-9E79-7B3FC94DA5ED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Monsters.Common", "Monsters.Common\Monsters.Common.csproj", "{3593D563-1F60-4AC0-96C0-39886E6E9262}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_DevProject", "_DevProject\_DevProject.csproj", "{5F940158-B297-4FBD-94EA-128D9D63F91C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositories", "Repositories", "{B4DD03F5-855C-4B06-B048-8E3FC75D730B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Monsters.Repositories", "Monsters.Repositories\Monsters.Repositories.csproj", "{86CE7DE0-52C8-4E60-90E0-3346F0F81408}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Monsters.DataAccess", "Monsters.DataAccess\Monsters.DataAccess.csproj", "{9D2CCB35-6A06-4430-A34C-6FF8D1CAD022}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Managers", "Managers", "{AB62830A-A466-4556-894B-23B874FA8CBD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Monsters.Managers", "Monsters.Managers\Monsters.Managers.csproj", "{472B049C-9667-4E8B-9894-2E347EFBF32E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Monsters.Web.Angular2", "Monsters.Web.Angular2\Monsters.Web.Angular2.csproj", "{662D96B4-B02B-4D2D-A6E3-BBE7E1CE8FF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D249C43-D085-4B5E-9542-01B0308499DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D249C43-D085-4B5E-9542-01B0308499DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D249C43-D085-4B5E-9542-01B0308499DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D249C43-D085-4B5E-9542-01B0308499DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3B0E8F3-AE84-46B0-8940-D7C6687CE38C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3B0E8F3-AE84-46B0-8940-D7C6687CE38C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3B0E8F3-AE84-46B0-8940-D7C6687CE38C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3B0E8F3-AE84-46B0-8940-D7C6687CE38C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A9167AE-59AF-4FFB-B5AB-3F9E5055CB80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A9167AE-59AF-4FFB-B5AB-3F9E5055CB80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A9167AE-59AF-4FFB-B5AB-3F9E5055CB80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A9167AE-59AF-4FFB-B5AB-3F9E5055CB80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A367D4F1-A8C1-4A42-AF66-915F85CBAE95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A367D4F1-A8C1-4A42-AF66-915F85CBAE95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A367D4F1-A8C1-4A42-AF66-915F85CBAE95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A367D4F1-A8C1-4A42-AF66-915F85CBAE95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFA8B6DA-5B11-41D4-9E79-7B3FC94DA5ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFA8B6DA-5B11-41D4-9E79-7B3FC94DA5ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFA8B6DA-5B11-41D4-9E79-7B3FC94DA5ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFA8B6DA-5B11-41D4-9E79-7B3FC94DA5ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3593D563-1F60-4AC0-96C0-39886E6E9262}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3593D563-1F60-4AC0-96C0-39886E6E9262}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3593D563-1F60-4AC0-96C0-39886E6E9262}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3593D563-1F60-4AC0-96C0-39886E6E9262}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F940158-B297-4FBD-94EA-128D9D63F91C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F940158-B297-4FBD-94EA-128D9D63F91C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F940158-B297-4FBD-94EA-128D9D63F91C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F940158-B297-4FBD-94EA-128D9D63F91C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86CE7DE0-52C8-4E60-90E0-3346F0F81408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86CE7DE0-52C8-4E60-90E0-3346F0F81408}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86CE7DE0-52C8-4E60-90E0-3346F0F81408}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86CE7DE0-52C8-4E60-90E0-3346F0F81408}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D2CCB35-6A06-4430-A34C-6FF8D1CAD022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D2CCB35-6A06-4430-A34C-6FF8D1CAD022}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D2CCB35-6A06-4430-A34C-6FF8D1CAD022}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D2CCB35-6A06-4430-A34C-6FF8D1CAD022}.Release|Any CPU.Build.0 = Release|Any CPU
+		{472B049C-9667-4E8B-9894-2E347EFBF32E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{472B049C-9667-4E8B-9894-2E347EFBF32E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{472B049C-9667-4E8B-9894-2E347EFBF32E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{472B049C-9667-4E8B-9894-2E347EFBF32E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{662D96B4-B02B-4D2D-A6E3-BBE7E1CE8FF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{662D96B4-B02B-4D2D-A6E3-BBE7E1CE8FF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{662D96B4-B02B-4D2D-A6E3-BBE7E1CE8FF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{662D96B4-B02B-4D2D-A6E3-BBE7E1CE8FF5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2D249C43-D085-4B5E-9542-01B0308499DE} = {0AE7DAA9-7F40-4C09-8391-3A69F8ABE167}
+		{C3B0E8F3-AE84-46B0-8940-D7C6687CE38C} = {0AE7DAA9-7F40-4C09-8391-3A69F8ABE167}
+		{5A9167AE-59AF-4FFB-B5AB-3F9E5055CB80} = {E5CBCB29-00C1-4D3A-BD6C-669D0BBC8606}
+		{A367D4F1-A8C1-4A42-AF66-915F85CBAE95} = {E5CBCB29-00C1-4D3A-BD6C-669D0BBC8606}
+		{FFA8B6DA-5B11-41D4-9E79-7B3FC94DA5ED} = {5B5AC515-BDA2-4F2E-BDAF-8C44540A9B3B}
+		{5F940158-B297-4FBD-94EA-128D9D63F91C} = {E552CE68-A314-4C54-B589-0281F26A899A}
+		{86CE7DE0-52C8-4E60-90E0-3346F0F81408} = {B4DD03F5-855C-4B06-B048-8E3FC75D730B}
+		{9D2CCB35-6A06-4430-A34C-6FF8D1CAD022} = {E5CBCB29-00C1-4D3A-BD6C-669D0BBC8606}
+		{472B049C-9667-4E8B-9894-2E347EFBF32E} = {AB62830A-A466-4556-894B-23B874FA8CBD}
+		{662D96B4-B02B-4D2D-A6E3-BBE7E1CE8FF5} = {0AE7DAA9-7F40-4C09-8391-3A69F8ABE167}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3ECB2A73-C13A-427D-839C-475C9D0575A5}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 12
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dotnetmonsters.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Monsters.Web.DotNetCore\\Monsters.Web.DotNetCore.csproj
+		SccProjectTopLevelParentUniqueName1 = Monsters.sln
+		SccProjectName1 = Monsters.Web.DotNetCore
+		SccLocalPath1 = Monsters.Web.DotNetCore
+		SccProjectUniqueName2 = Monsters.Web.Angular\\Monsters.Web.Angular.csproj
+		SccProjectTopLevelParentUniqueName2 = Monsters.sln
+		SccProjectName2 = Monsters.Web.Angular
+		SccLocalPath2 = Monsters.Web.Angular
+		SccProjectUniqueName3 = Monsters.DataAccess.EntityFramework\\Monsters.DataAccess.EntityFramework.csproj
+		SccProjectTopLevelParentUniqueName3 = Monsters.sln
+		SccProjectName3 = Monsters.DataAccess.EntityFramework
+		SccLocalPath3 = Monsters.DataAccess.EntityFramework
+		SccProjectUniqueName4 = Monsters.DataAccess.Dapper\\Monsters.DataAccess.Dapper.csproj
+		SccProjectTopLevelParentUniqueName4 = Monsters.sln
+		SccProjectName4 = Monsters.DataAccess.Dapper
+		SccLocalPath4 = Monsters.DataAccess.Dapper
+		SccProjectUniqueName5 = Monsters.Data\\Monsters.Data.csproj
+		SccProjectTopLevelParentUniqueName5 = Monsters.sln
+		SccProjectName5 = Monsters.Data
+		SccLocalPath5 = Monsters.Data
+		SccProjectUniqueName6 = Monsters.Common\\Monsters.Common.csproj
+		SccProjectName6 = Monsters.Common
+		SccLocalPath6 = Monsters.Common
+		SccProjectUniqueName7 = _DevProject\\_DevProject.csproj
+		SccProjectTopLevelParentUniqueName7 = Monsters.sln
+		SccProjectName7 = _DevProject
+		SccLocalPath7 = _DevProject
+		SccProjectUniqueName8 = Monsters.Repositories\\Monsters.Repositories.csproj
+		SccProjectTopLevelParentUniqueName8 = Monsters.sln
+		SccProjectName8 = Monsters.Repositories
+		SccLocalPath8 = Monsters.Repositories
+		SccProjectUniqueName9 = Monsters.DataAccess\\Monsters.DataAccess.csproj
+		SccProjectTopLevelParentUniqueName9 = Monsters.sln
+		SccProjectName9 = Monsters.DataAccess
+		SccLocalPath9 = Monsters.DataAccess
+		SccProjectUniqueName10 = Monsters.Managers\\Monsters.Managers.csproj
+		SccProjectTopLevelParentUniqueName10 = Monsters.sln
+		SccProjectName10 = Monsters.Managers
+		SccLocalPath10 = Monsters.Managers
+		SccProjectUniqueName11 = Monsters.Web.Angular2\\Monsters.Web.Angular2.csproj
+		SccProjectTopLevelParentUniqueName11 = Monsters.sln
+		SccProjectName11 = Monsters.Web.Angular2
+		SccLocalPath11 = Monsters.Web.Angular2
+	EndGlobalSection
+EndGlobal

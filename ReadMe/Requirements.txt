@@ -1,0 +1,28 @@
+1. General
+	1.1 Multi language
+		- EN, RO, RU
+	1.2 Multi curencies
+		- MDL, EURO, USD
+	1.3 Resposive/Adaptible
+	
+	
+2. Marketing Part
+	2.1 SignUp
+	2.2 SignIn / SignOut
+	2.3 User Profile
+	2.4 View Products
+	2.5 Basket
+		- add\remove products
+		- calculate final price
+	2.6 Order
+		- Create
+		- Edit
+
+
+3. Admin Part
+	3.1 Create User
+	3.2 Edit User
+	3.3 LogIn / LogOut as admin
+	3.4 Product Management: Create\Update\Delete
+		- Define prices
+	3.5 Define Countries, Shipping Prices

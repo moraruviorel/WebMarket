@@ -1,0 +1,26 @@
+﻿[
+  {
+    "outputFileName": "wwwroot/site.min.css",
+    "inputFiles": [
+      "bower_components/bootstrap/dist/css/bootstrap.css",
+      "bower_components/animate.css/animate.css",
+      "Content/libs/bootstrap.inspinia.css",
+      "Content/custom.css"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    }
+  },
+  {
+    "outputFileName": "wwwroot/site.min.js",
+    "inputFiles": [
+      "Scripts/custom.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    "sourceMap": false
+  }
+]
