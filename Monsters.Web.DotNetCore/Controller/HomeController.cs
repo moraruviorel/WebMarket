@@ -4,10 +4,12 @@ using Monsters.Web.DotNetCore.Models.Home;
 
 namespace Monsters.Web.DotNetCore//.Controller
 {
+    [AllowAnonymous]
     public class HomeController : Controller
     {
         //[AutoValidateAntiforgeryToken]
-        [Authorize]
+        //[Authorize]
+        [ValidateAntiForgeryToken]
         public ActionResult Index()
         {
             var homeModel = new HomeModel() { Message = "Hello World!" };
