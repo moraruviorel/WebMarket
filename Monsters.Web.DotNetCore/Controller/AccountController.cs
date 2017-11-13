@@ -8,18 +8,19 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace Monsters.Web.DotNetCore
 {
-    
+    [Authorize]
     public class AccountController : Controller
     {
         [HttpGet]
-        //[Authorize]
-        //[AllowAnonymous]
+        [AllowAnonymous]
         public IActionResult Login(string returnUrl)
         {
             return View();
         }
 
-        public IActionResult Login(LoginModel loginModel)
+        [HttpPost]
+        [AllowAnonymous]
+        public async Task<IActionResult> Login(LoginModel loginModel)
         {
             return RedirectToAction("Index", "Home");
         }

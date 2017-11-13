@@ -2,14 +2,11 @@
 using Microsoft.AspNetCore.Authorization;
 using Monsters.Web.DotNetCore.Models.Home;
 
-namespace Monsters.Web.DotNetCore//.Controller
+namespace Monsters.Web.DotNetCore
 {
-    [AllowAnonymous]
+    [Authorize]
     public class HomeController : Controller
     {
-        //[AutoValidateAntiforgeryToken]
-        //[Authorize]
-        [ValidateAntiForgeryToken]
         public ActionResult Index()
         {
             var homeModel = new HomeModel() { Message = "Hello World!" };

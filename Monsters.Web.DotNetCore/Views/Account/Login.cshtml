@@ -7,13 +7,15 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="~/site.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    @*<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>*@
+    
 </head>
 <body>
     <div class="middle-box text-center loginscreen animated fadeInDown">
-        @using (@Html.BeginForm("Login", "Account", FormMethod.Post, new { @class = "m-t" }))
+        @using (@Html.BeginForm("Login", "Account", FormMethod.Post))
         {
             @Html.AntiForgeryToken()
             <div class="form-group">
@@ -28,25 +30,21 @@
                         <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
                         @Html.TextBoxFor(x => x.Password, new { @placeholder = "Password", @class = "form-control" })
                     </div>
-                    <div class="i-checks">
-                        <div class="icheckbox_square-green" style="position: relative;">
-                            @Html.CheckBoxFor(x => x.RememberMe, new {@class="form-control", @style="height: 20px;"})
-                            @Html.Label("Remember Me")
-                            
-                        </div>
-                    </div>
-
-                    <div class="i-checks">
+                    <div>
+                        @*<button class="btn btn-sm btn-primary pull-right m-t-n-xs" type="submit"><strong>Log in</strong></button>*@
+                        <label class="">
                             <div class="icheckbox_square-green" style="position: relative;">
-                                @*<input type="checkbox" value="" style="position: absolute; opacity: 0;">*@
-                                @Html.CheckBoxFor(x => x.RememberMe, new { @class = "form-control" })
-                                <ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;">
-                                </ins>
-                            </div> <i></i> Option one
-                        </div>
-
-
-                    <button type="submit" class="btn btn-default form-control">Log In</button>
+                                @*<input type="checkbox" class="i-checks" style="position: absolute; opacity: 0;">*@
+                                @Html.CheckBoxFor(x => x.RememberMe, new {@class="i-checks", @style = "height: 20px;" })
+                                <ins class="iCheck-helper" style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins>
+                            </div> Remember me
+                        </label>
+                    </div>
+                   
+                                      
+                    <button type="submit" class="btn btn-sm btn-primary pull-right m-t-n-xs form-control">
+                        <strong>Log In</strong>
+                    </button>
                 </div>
             </div>
         }
